@@ -1,0 +1,110 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: auto;
+    max-width: 100% ;
+    margin: 0 auto;
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 10px 0;
+    margin-bottom: 20px
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  .contact-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px 0;
+    cursor: pointer;
+  }
+  
+  .contact-button {
+    background-color:purple;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    
+  }
+  
+  .contact-button:hover {
+    background-color: black;
+  }
+  
+  footer {
+    margin-top: 20px;
+    font-size:20px;
+    color: #bbb;
+    text-align: center;
+  }
+  /*Media Query for Mobile Screen */
+  @media (max-width:480px) {
+    .container{
+        width: 90%;
+        padding: 10px; 
+    }
+    p{
+        font-size:16px;
+    }
+    .contact-button{
+        padding: 10px 15px;
+        font-size: 15px; 
+    }
+    footer{
+        font-size: 10px;
+    }
+  }
+
+  /*Media Query for Larger Screen */
+  @media (max-width: 1024px) {
+    .container{
+        max-width: 400px;
+        padding: 10px; 
+    }
+    p{
+        font-size:20px;
+    }
+    .contact-button{
+        padding: 10px 20px;
+        font-size: 15px; 
+    }
+    footer{
+        font-size: 14px;
+    }
+  }
+  
+  
